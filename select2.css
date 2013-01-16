@@ -318,6 +318,11 @@ Version: @@ver@@ Timestamp: @@timestamp@@
     font-weight: bold;
 }
 
+.select2-results li.select2-result-unselectable:not(.select2-result-with-children) > .select2-result-label {
+  font-weight: normal;
+  opacity: 0.4;
+}
+
 .select2-results .select2-result-label {
     padding: 3px 7px 4px;
     margin: 0;
